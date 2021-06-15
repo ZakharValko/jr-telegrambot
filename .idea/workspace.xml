@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="" />
+    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +60,18 @@
       <option name="presentableId" value="Default" />
       <updated>1623690691327</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1623748840173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623748840173</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
