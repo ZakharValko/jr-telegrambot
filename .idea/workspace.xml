@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="Changes in pom.xml file.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-2: added a stub telegram bot to this project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,13 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623751042499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JRTB-2: added a stub telegram bot to this project">
+      <created>1623755975016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623755975016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Change README file." />
     <MESSAGE value="Changes in pom.xml file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in pom.xml file." />
+    <MESSAGE value="JRTB-2: added a stub telegram bot to this project" />
+    <option name="LAST_COMMIT_MESSAGE" value="JRTB-2: added a stub telegram bot to this project" />
   </component>
 </project>
