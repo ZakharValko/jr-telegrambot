@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-2: added a stub telegram bot to this project" />
+    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-2: added a stub telegram bot to this project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/UnknownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/SendBotMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/SendBotMessageServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
