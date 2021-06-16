@@ -4,3 +4,7 @@
 
 * added stub telegram bot
 * added SprintBoot skeleton project
+
+## 0.3.0-SNAPSHOT
+
+* added unit tests for Commands
