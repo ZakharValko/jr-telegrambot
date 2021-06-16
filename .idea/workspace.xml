@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;- Added command pattern&#10;- Added response for commands&#10;- Create Command Container">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/AbstractCommandClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/CommandContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/HelpCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/NoCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StartCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StopCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/UnknownCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/service/SendBotMessageServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623767166405</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest">
+      <created>1623846733998</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623846733998</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest">
+      <created>1623846781131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623846781131</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="Changes in pom.xml file." />
     <MESSAGE value="JRTB-2: added a stub telegram bot to this project" />
     <MESSAGE value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;- Added command pattern&#10;- Added response for commands&#10;- Create Command Container" />
-    <option name="LAST_COMMIT_MESSAGE" value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;- Added command pattern&#10;- Added response for commands&#10;- Create Command Container" />
+    <MESSAGE value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest" />
   </component>
 </project>
