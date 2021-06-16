@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REALESE_NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/REALESE_NOTES" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommandContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JRTB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.command" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.CommandContainerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavarushTelegramBotApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JRTB" />
       <extension name="coverage">
@@ -134,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommandContainerTest" />
         <item itemvalue="JUnit.SendBotMessageServiceTest.shouldProperlySendMessage" />
-        <item itemvalue="Application.JavarushTelegramBotApplication" />
         <item itemvalue="JUnit.SendBotMessageServiceTest" />
         <item itemvalue="JUnit.JavarushTelegramBotApplicationTests" />
+        <item itemvalue="JUnit.CommandContainerTest" />
+        <item itemvalue="Application.JavarushTelegramBotApplication" />
       </list>
     </recent_temporary>
   </component>
