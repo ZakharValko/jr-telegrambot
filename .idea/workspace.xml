@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-13: implement deployment process via docker">
+      <change afterPath="$PROJECT_DIR$/docker-compose-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StatCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/repository/entity/TelegramUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/repository/entity/TelegramUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/TelegramUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/TelegramUserServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V00001__created_tg_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StatCommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REALESE_NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/REALESE_NOTES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/HelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StopCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/AbstractCommandClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/AbstractCommandClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/CommandContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/CommandContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StartCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StartCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StopCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StopCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +75,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.github.ZakharValko.jrtb.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommandContainerTest">
+  <component name="RunManager" selected="Application.JavarushTelegramBotApplication">
     <configuration name="JavarushTelegramBotApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.JavarushTelegramBotApplication" />
       <module name="JRTB" />
@@ -72,66 +92,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JRTB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.command" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.CommandContainerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JRTB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.command" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.CommandContainerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavarushTelegramBotApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JRTB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.JavarushTelegramBotApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SendBotMessageServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JRTB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.service" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.service.SendBotMessageServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,13 +112,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JRTB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.command" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.StatCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelegramUserRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JRTB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.repository.TelegramUserRepositoryIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelegramUserRepositoryIT.shouldProperlyFindAllActiveUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JRTB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.repository.TelegramUserRepositoryIT" />
+      <option name="METHOD_NAME" value="shouldProperlyFindAllActiveUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SendBotMessageServiceTest.shouldProperlySendMessage" />
-        <item itemvalue="JUnit.SendBotMessageServiceTest" />
-        <item itemvalue="JUnit.JavarushTelegramBotApplicationTests" />
-        <item itemvalue="JUnit.CommandContainerTest" />
         <item itemvalue="Application.JavarushTelegramBotApplication" />
+        <item itemvalue="JUnit.TelegramUserRepositoryIT" />
+        <item itemvalue="JUnit.TelegramUserRepositoryIT.shouldProperlyFindAllActiveUsers" />
+        <item itemvalue="JUnit.StatCommandTest" />
+        <item itemvalue="JUnit.SendBotMessageServiceTest.shouldProperlySendMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -227,8 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623846781131</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="JRTB-13: implement deployment process via docker">
+      <created>1623849290168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623849290168</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -249,6 +265,7 @@
     <MESSAGE value="JRTB-2: added a stub telegram bot to this project" />
     <MESSAGE value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;- Added command pattern&#10;- Added response for commands&#10;- Create Command Container" />
     <MESSAGE value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="JRTB-3: added Command pattern for handling Telegram Bot commands&#10;&#10;Added unit tests for:&#10;- CommandContainerTest&#10;- SendBotMessageServiceTest&#10;&#10;- StartCommandTest&#10;- StopCommandTest&#10;- HelpCommandTest&#10;- NoCommandTest&#10;- UnknownCommandTest" />
+    <MESSAGE value="JRTB-13: implement deployment process via docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="JRTB-13: implement deployment process via docker" />
   </component>
 </project>
