@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-1: added repository layer." />
+    <list default="true" id="bb7f768d-0d28-46b7-aa8f-3c23a1e11baf" name="Default Changelist" comment="JRTB-1: added repository layer.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/AddGroupSubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/ListGroupSubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/JavaRushGroupClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/JavaRushGroupClientImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupDiscussionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupInfoType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupRequestArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupVisibilityStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/GroupsCountRequestArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/MeGroupInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/MeGroupInfoStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/javarushclient/dto/UserDiscussionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/repository/entity/GroupSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/repository/entity/GroupSubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/GroupSubService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/GroupSubServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V00002__created_groupsub_many_to_many.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/ListGroupSubCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/javarushclient/JavaRushGroupClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/service/GroupSubServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REALESE_NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/REALESE_NOTES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/bot/JavaRushTelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/CommandName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/HelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/command/StartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/repository/entity/TelegramUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/repository/entity/TelegramUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/TelegramUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/ZakharValko/jrtb/service/TelegramUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V00001__created_tg_user_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V00001__created_tg_user_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/AbstractCommandClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/AbstractCommandClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/CommandContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/CommandContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StartCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/ZakharValko/jrtb/command/StartCommandTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -53,10 +94,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.ZakharValko.jrtb.command" />
       <recent name="com.github.ZakharValko.jrtb.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JavarushTelegramBotApplicationTests">
+  <component name="RunManager" selected="Application.JavarushTelegramBotApplication">
     <configuration name="JavarushTelegramBotApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.JavarushTelegramBotApplication" />
       <module name="JRTB" />
@@ -70,22 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavarushTelegramBotApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupSubServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JRTB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.*" />
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.JavarushTelegramBotApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.service.GroupSubServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupSubServiceTest.shouldProperlySaveGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JRTB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.service.GroupSubServiceTest" />
+      <option name="METHOD_NAME" value="shouldProperlySaveGroup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListGroupSubCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JRTB" />
       <extension name="coverage">
         <pattern>
@@ -94,38 +152,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.command" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.StatCommandTest" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.ListGroupSubCommandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelegramUserRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListGroupSubCommandTest.shouldProperlyShowListGroupSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JRTB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.repository.*" />
+          <option name="PATTERN" value="com.github.ZakharValko.jrtb.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.repository.TelegramUserRepositoryIT" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelegramUserRepositoryIT.shouldProperlyFindAllActiveUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JRTB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.ZakharValko.jrtb.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.repository.TelegramUserRepositoryIT" />
-      <option name="METHOD_NAME" value="shouldProperlyFindAllActiveUsers" />
+      <option name="PACKAGE_NAME" value="com.github.ZakharValko.jrtb.command" />
+      <option name="MAIN_CLASS_NAME" value="com.github.ZakharValko.jrtb.command.ListGroupSubCommandTest" />
+      <option name="METHOD_NAME" value="shouldProperlyShowListGroupSub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JavarushTelegramBotApplicationTests" />
         <item itemvalue="Application.JavarushTelegramBotApplication" />
-        <item itemvalue="JUnit.TelegramUserRepositoryIT" />
-        <item itemvalue="JUnit.TelegramUserRepositoryIT.shouldProperlyFindAllActiveUsers" />
-        <item itemvalue="JUnit.StatCommandTest" />
+        <item itemvalue="JUnit.ListGroupSubCommandTest" />
+        <item itemvalue="JUnit.ListGroupSubCommandTest.shouldProperlyShowListGroupSub" />
+        <item itemvalue="JUnit.GroupSubServiceTest" />
+        <item itemvalue="JUnit.GroupSubServiceTest.shouldProperlySaveGroup" />
       </list>
     </recent_temporary>
   </component>
