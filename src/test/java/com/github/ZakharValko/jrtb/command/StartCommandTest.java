@@ -1,6 +1,5 @@
 package com.github.ZakharValko.jrtb.command;
 
-import com.github.ZakharValko.jrtb.service.TelegramUserService;
 import org.junit.jupiter.api.DisplayName;
 
 import static com.github.ZakharValko.jrtb.command.CommandName.START;

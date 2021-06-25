@@ -4,7 +4,6 @@ import com.github.ZakharValko.jrtb.bot.JavaRushTelegramBot;
 import com.github.ZakharValko.jrtb.service.SendBotMessageService;
 import com.github.ZakharValko.jrtb.service.SendBotMessageServiceImplementation;
 import com.github.ZakharValko.jrtb.service.TelegramUserService;
-import com.github.ZakharValko.jrtb.service.TelegramUserServiceImplementation;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
